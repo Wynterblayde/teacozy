@@ -1,0 +1,131 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	flex-direction: column;
+  align-content: center;
+	display: flex;
+}
+header {
+	position: fixed;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	display: flex;
+  z-index: 20;
+  background-color: black;
+}
+.logo {
+	display: inline-block;
+	padding-left: 10px;
+	flex-grow: 1;
+	align-items: flex-start;
+}
+nav span {
+  display: inline-block;
+  padding: 10px 20px 10px 0px;
+  flex-grow: 1;
+  }
+a {
+	color: seashell;
+}
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+	}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 200px;
+	align-self: center;
+	}
+.content {
+  flex-grow: 1;
+  align-content: center;
+  justify-content: center;
+  color: seashell;
+  display: block;
+  text-align: center;
+	width: 1200px;
+	align-self: center;
+	background-color: black;
+}
+.tom-container {
+	display: inline-block;
+	justify-content: center;
+	position: static;
+}
+.tom-container h2, h4 {
+	text-align: center;
+	flex-grow: 1;
+	width: auto;
+	height: auto;
+}
+.rows {
+	height: auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	flex-grow: 1;
+}
+.longrow {
+	display: flex;
+	width: 1000px;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.shortrow {
+	display: flex;
+	width: 650px;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.firstpic, .secondpic, .thirdpic {
+	flex-direction: column;
+}
+.containertwo {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	flex-direction: column;
+	background-position: center;
+	background-size: cover;
+}
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+	align-content: center;
+	width: 980px;
+	padding-bottom: 60px;
+	}
+.firstbox, .secondbox, .thirdbox {
+	width: 300px;
+	justify-content: center;
+	opacity: 1;
+	align-content: center;
+	text-align: center;
+	background-color: black;
+}
+#title {
+	text-align: center;
+}
+.contactinfo {
+	display: inline-block;
+	align-items: center;
+	align-self: center;
+	height: 200px;
+	text-align: center;
+}
+.footer {
+	text-align: left;
+	margin-left: 20px;
+}
